@@ -102,7 +102,7 @@ election_report.close()
 
 
 """
-Election Results
+Example Election Results
 -------------------------
 Total Votes: 3521001
 -------------------------

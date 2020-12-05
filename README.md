@@ -8,9 +8,9 @@ PyBank and PyPoll use Python scripting skills in these real-world situations. Us
 
 ![Revenue](Images/profitLoss.jpg)
 
-- Use the main.py Python script for analyzing financial records. Use financial data set called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Simplified accounting records.)
+- Use the PyBank/main.py Python script for analyzing financial records. Use financial data set called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Simplified accounting records.)
 
-- The main.py Python script in PyBank analyzes the records to calculate each of the following:
+- The Python script in PyBank analyzes the records to calculate each of the following:
 
   - The total number of months included in the dataset
 
@@ -40,7 +40,7 @@ PyBank and PyPoll use Python scripting skills in these real-world situations. Us
 
 ![Vote Counting](Images/votehere.jpg)
 
-- This Python script is designed to help a small, rural town modernize its vote counting process.
+- PyPoll/main.py Python script is designed to help a small, rural town modernize its vote counting process.
 
 - The poll data set is called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. The Python script analyzes the votes and calculates each of the following:
 
