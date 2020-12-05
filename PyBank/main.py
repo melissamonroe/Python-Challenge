@@ -78,20 +78,20 @@ with open(input_path, 'r') as csvfile:
 # calculate profitloss_delta average
 profitloss_delta_avg = round(average(profitloss_delta),2)
 
-report_text = 'Financial Analysis \n'
-report_text += '----------------------------\n'
-report_text += f'Total Months: {month_count}\n'
-report_text += f'Net Profit/Loss: ${net_profitloss}\n'
-report_text += f'Average Change: ${profitloss_delta_avg}\n'
-report_text += f'Greatest Gain: {max_record["date"]} ${max_record["amount"]}\n'
-report_text += f'Greatest Loss: {min_record["date"]} ${min_record["amount"]}\n'
+budget_report_text = 'Financial Analysis \n'
+budget_report_text += '----------------------------\n'
+budget_report_text += f'Total Months: {month_count}\n'
+budget_report_text += f'Net Profit/Loss: ${net_profitloss}\n'
+budget_report_text += f'Average Change: ${profitloss_delta_avg}\n'
+budget_report_text += f'Greatest Gain: {max_record["date"]} ${max_record["amount"]}\n'
+budget_report_text += f'Greatest Loss: {min_record["date"]} ${min_record["amount"]}\n'
 
 
 # print report to console
-print(report_text)
+print(budget_report_text)
 
 budget_report = open(os.path.join('', 'Analysis', 'budget_data_report.txt'), "w")
-budget_report.write(report_text)
+budget_report.write(budget_report_text)
 budget_report.close()
 
 
